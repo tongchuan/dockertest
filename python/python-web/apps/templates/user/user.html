@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+您好，{{username}}!登录成功{{request.cookies.get('username')}}
+<a href="{{url_for('user_index.user_loginout')}}">退出</a>
+</body>
+</html>

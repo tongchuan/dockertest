@@ -1,0 +1,6 @@
+172.18.0.1 - - [01/Apr/2020:06:52:51 +0000] "GET / HTTP/1.1" 200 618 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" "-"
+172.18.0.1 - - [01/Apr/2020:06:52:51 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://127.0.0.1/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" "-"
+172.18.0.1 - - [01/Apr/2020:06:52:52 +0000] "GET / HTTP/1.1" 200 618 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" "-"
+172.18.0.1 - - [01/Apr/2020:06:52:52 +0000] "GET / HTTP/1.1" 200 618 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" "-"
+172.18.0.1 - - [01/Apr/2020:06:52:52 +0000] "GET / HTTP/1.1" 200 618 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" "-"
+172.18.0.1 - - [01/Apr/2020:06:53:01 +0000] "GET / HTTP/1.1" 200 616 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" "-"
