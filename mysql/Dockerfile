@@ -29,7 +29,8 @@ EXPOSE 3306
 # docker network create -d bridge testnet
 
 # docker build -t mysql:data .
-#docker run -p 3306:3306 --name mysql --network testnet -e MYSQL_ROOT_PASSWORD=root -v /git.yonyou.com/docker/mysql/conf/:/etc/mysql/ -v /git.yonyou.com/docker/mysql/logs/:/var/log/mysql/ -v /git.yonyou.com/docker/mysql/data:/var/lib/mysql -d mysql:data
+#  docker run -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root -v /git.yonyou.com/docker/mysql/conf/:/etc/mysql/ -v /git.yonyou.com/docker/mysql/logs/:/var/log/mysql/ -v /git.yonyou.com/docker/mysql/data:/var/lib/mysql -d mysql:data
+### docker run -p 3306:3306 --name mysql --network testnet -e MYSQL_ROOT_PASSWORD=root -v /git.yonyou.com/docker/mysql/conf/:/etc/mysql/ -v /git.yonyou.com/docker/mysql/logs/:/var/log/mysql/ -v /git.yonyou.com/docker/mysql/data:/var/lib/mysql -d mysql:data
 # docker exec -it mysql bash
 # mysql -u root -p
 #GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;
@@ -39,3 +40,6 @@ EXPOSE 3306
 # root
 # root
 # mysql
+
+
+# docker network create --subnet=172.18.0.0/16 -d nat testnet
