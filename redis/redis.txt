@@ -1,0 +1,30 @@
+
+string 
+set name zhang
+get name
+
+hash 
+hmset table name "redis name" description "redis description" likes 20 visitors 2300 age 23
+hgetall table
+
+list
+LPUSH keylist redis
+LPUSH keylist mongodb
+LPUSH keylist mysql
+LPUSH keylist zhang tong chuan
+LPUSH keylist "zhang tong chuan"
+LRANGE keylist 0 10
+
+set
+sadd keyset redis
+sadd keyset mongodb
+sadd keyset mysql
+sadd keyset zhang tong chuan
+sadd keyset "zhang tong chuan"
+SMEMBERS keyset
+
+zadd keyzset 1 redis
+zadd keyzset 2 mongodb
+zadd keyzset 3 mysql
+zadd keyzset 5 "zhang tong chuan"
+ZRANGE keyzset 0 10 WITHSCORES

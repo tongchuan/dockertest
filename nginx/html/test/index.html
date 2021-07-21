@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<!-- <script type="text/javascript" src="./js/b.js"></script> -->
+	<!-- <script type="text/javascript" src="./js/a.js"></script>
+
+	<script type="text/javascript" src="http://www.zhang.com/test/js/b.js" crossorigin></script>
+	<script type="text/javascript" src="./js/c.js"></script> -->
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript">
+		$.ajax({
+			// url: '/api/etl/template/getTemplateInfo',
+			url: 'http://10.6.234.137:3333/etl/template/getTemplateInfo',
+			dataType: 'json',
+			success: function(data){
+				console.log(data.data)
+			},
+			error:function(...args){
+				console.log(args)
+			}
+
+		})
+	</script>
+</head>
+<body>
+	<div>
+		<ul>
+			<li>121212</li>
+		</ul>
+	</div>
+
+</body>
+</html>
